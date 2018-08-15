@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>Forms</title>
+	<!-- Link to external css file -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+	<form>
+		<input type="txt" name="username" placeholder="Write your Full Name here" required>
+		<input type="password" name="password" placeholder="Input Password">
+
+		<hr>
+
+		<input type="radio" name="genre" value="rock" checked>Rock
+		<input type="radio" name="genre" value="pop">Pop
+		<input type="radio" name="genre" value="jazz">Jazz
+
+		<hr>
+
+		<input type="checkbox" name="fruit" value="apple">Apple
+		<br>
+		<input type="checkbox" name="fruit" value="orange">Orange
+		<br>
+		<input type="checkbox" name="fruit" value="melon">Melon
+
+		<hr>
+
+		<select>
+			<option value="uniqlo">Uniqlo</option>
+			<option value="bench">Bench</option>
+			<option value="penshoppe">Penshoppe</option>
+		</select>
+
+		<hr>
+
+		<label>Name:<input type="text" name="First Name"></label
+		>
+
+		<br>
+		<br>
+
+		<input id="female" type="radio" name="gender" value="f">
+		<label for="female">Female</label>
+		<input id="male" type="radio" name="gender" value="m">
+		<label for="male">Male</label>
+
+		<hr>
+
+		<input type="email" name="email" disabled>
+		<input type="number" name="contact">
+		<br>
+		<br>
+
+		<a href="about.html"><button><img src="assets/images/puppy.jpeg"></button></a>
+		<br>
+		<br>
+
+		<input type="file" name="song">
+		<br>
+		<br>
+
+		<textarea name="comments">Write your comments here...</textarea>
+		<br>
+
+
+		<fieldset>
+			<legend>Contact Details</legend>
+			<label for="email">Email: </label>
+			<input id="email" type="email" name="email">
+			<label>Mobile: <input type="number" name="number"></label>
+		</fieldset>
+
+
+		<hr>
+		<input type="submit" name="submit">
+
+
+	</form>
+
+
+</body>
+</html>
